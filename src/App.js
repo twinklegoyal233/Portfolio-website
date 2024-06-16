@@ -4,8 +4,8 @@ import { darkTheme } from "./utils/Theme";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Skills from "./Components/Skills/Skills";
-import Education from "./Components/Education/Education";
 import { BrowserRouter as Router } from "react-router-dom";
+import Projects from "./Components/Projects/Projects";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -29,7 +29,6 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  console.log(darkTheme);
   return (
     <ThemeProvider theme={darkTheme}>
       <Router>
@@ -38,7 +37,7 @@ function App() {
           <Hero />
           <Wrapper>
             <Skills />
-            <Education />
+          <Projects/>
           </Wrapper>
         </Body>
       </Router>
