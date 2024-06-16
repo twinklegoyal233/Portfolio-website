@@ -41,10 +41,11 @@ export const Bio = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
         {
-          name: "Bootstrap",
+          name: "Tailwind",
           image:
-            "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+          "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
         },
+     
       
       ],
     },
