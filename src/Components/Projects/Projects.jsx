@@ -1,4 +1,4 @@
-import React from 'react'
+
 import styled from 'styled-components'
 import ProjectCard from '../Cards/ProjectCard';
 import { projects } from '../../data/constants';
@@ -70,15 +70,15 @@ export const CardContainer = styled.div`
 `; 
 const Projects = () => {
   return (
-<Container>
+<Container id='projects' >
     <Wrapper>
         <Title>Projects</Title>
         <Desc>
-            I have worked on these projects..Plesase have a look at them..
+        Here you will find some of the projects that I have worked on. Do have a look at them.
         </Desc>
 
         <CardContainer>  
-            {projects.map((project) => <ProjectCard  project = {project}/>)} 
+            {projects.map((project) => <ProjectCard key={project.title}  project = {project}/>)} 
         </CardContainer>
 
 
