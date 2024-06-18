@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import  { useTheme } from "styled-components";
 import { FaBars } from 'react-icons/fa';
 import { Bio } from "../../data/constants";
+import styled from "styled-components";
+import twinkle from "../../images/twinkle.png"
 import {
   ButtonContainer,
   NavLink,
@@ -15,7 +17,15 @@ import {
   MobileLink,
   MobileMenu
 } from "./NavbarStyledComponen";
-import { DiCssdeck } from "react-icons/di";
+
+
+const Img = styled.img`
+  /* Explicitly set width to 3rem for consistent sizing */
+  width: 3rem;
+  border-radius: 50%;
+  border: 2px solid ${({ theme }) => theme.primary};
+  object-fit: cover;
+`;
 
 const Navbar = () => {
   const [isOpen, setisOpen] = useState(false)
@@ -33,7 +43,7 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+       <Img src ={twinkle} alt ="user_icon"  />
           </div>
         </NavLogo>
         <MobileIcon>

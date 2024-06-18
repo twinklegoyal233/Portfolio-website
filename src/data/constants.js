@@ -6,7 +6,7 @@ export const Bio = {
   name: "Twinkle Goyal",
   roles: ["Frontend Developer"],
   description:
-    "Self-taught frontend developer passionate about crafting user-friendly web experiences. Eager to learn and Contribute in collaborative team environment.Seeking an opportunity to grow as a developer. ",
+    "Self-taught frontend developer passionate about crafting user-friendly web experiences. Eager to learn and Contribute in collaborative team environment. Seeking an opportunity to grow as a developer. ",
   github: "https://github.com/twinklegoyal233",
   resume:
     "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
@@ -73,28 +73,19 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    school: "IGNOU",
+    degree: "BSC MATHS",
+    date: "Apr 2018 - Apr 2021",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    school: "Emmanuel Mission School, Talwandi Kota",
+    date: "Apr 2015 - Apr 2017",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    school: "Delhi Public School, NTPC",
+    date: "Apr 2013 - Apr 2015",
   },
 ];
 
@@ -103,9 +94,8 @@ export const projects = [
     id: 0,
     title: "AI-assistant",
     description:
-      "In my AI Assistant project, I integrated the Gemini API for data retrieval and utilized the Context API for efficient state management. It expanded my proficiency in API integration and enhanced my ability to maintain clear and organized state management within complex web applications.",
+      "In my AI Assistant project, I integrated the Gemini API for data retrieval and utilized the Context API for efficient state management thereby expanded my proficiency in API integration.",
     image: Aiassistant,
-    tags: ["Html", "Css", "Javascript", "React Js", "Responsive Design"],
     github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
     webapp: "https://brain-tumor.netlify.app/",
   },
@@ -115,24 +105,25 @@ export const projects = [
     description:
       "In my Youtube project, I explored the YouTube API and Redux. I implemented essential features such as video playback, user interaction functionalities like comments, and seamless switching between various content types such as news, blogs, and shorts. ",
     image: vidtube,
-    tags: [
-      "Html",
-      "Css",
-      "Javascript",
-      "React Js",
-      "Redux",
-      "Responsive Design",
-    ],
+  
     github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://podstream.netlify.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Real Estate",
     description:
       "For this project, I built a real estate website using HTML, CSS and JavaScript. Through this project, I learnt Responsive Web Design, Building reusable Components. Adding SwiperJS and making the Form work. ",
     image: realestate,
-    tags: ["Html", "Css", "Javascript", "React Js", "Responsive Design"],
+    github: "https://github.com/rishavchanda/Project-Management-App",
+    webapp: "https://main--extraordinary-crostata-d5388b.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Netflix",
+    description:
+      "For this project, I worked with Firebase, Redux, and TMDB API. It features user login, Redux state management, and fetches movie data from TMDB. ",
+    image: realestate,
     github: "https://github.com/rishavchanda/Project-Management-App",
     webapp: "https://main--extraordinary-crostata-d5388b.netlify.app/",
   },

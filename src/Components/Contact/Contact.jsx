@@ -128,9 +128,8 @@ const Contact = () => {
           e.preventDefault();
     const formData = new FormData(form.current);
     const email = formData.get('from_email').trim();
-    console.log(email);
     const message = formData.get('message').trim();
-    console.log(message);
+
 
     if (!email || !message) {
       alert('Please fill out both the email and message fields before submitting.');
