@@ -1,4 +1,5 @@
 # Welcome to my portfolio!
+**Check out the live version of my portfolio [here](https://twinklegoyal-portfolio.vercel.app/).**
 
 **This project showcases my skills, projects, and experiences as a web developer.**
 
@@ -48,6 +49,3 @@ To run this portfolio locally, follow these steps:
     ```sh
     http://localhost:3000
     ```
-
-## Usage
-After installing and running the project locally, you can navigate through the different sections of the portfolio using the navigation menu. Explore the **About Me** section to learn more about my background and skills. Visit the **Projects** section to see detailed information about my projects, including descriptions. Use the **Contact** section to send me a message or inquiry.
