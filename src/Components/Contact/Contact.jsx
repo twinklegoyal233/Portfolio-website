@@ -141,7 +141,6 @@ const Contact = () => {
     .then((result) => {
            form.current.reset();
            setOpen(true);
-     console.log('done')
       }, (error) => {
         console.log(error.text);
       });

@@ -4,6 +4,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from "../../data/constants";
 import styled from "styled-components";
 import twinkle from "../../images/twinkle.png"
+
 import {
   ButtonContainer,
   NavLink,
@@ -55,6 +56,7 @@ const Navbar = () => {
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
         <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>

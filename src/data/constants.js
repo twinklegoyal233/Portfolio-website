@@ -1,5 +1,6 @@
 import realestate from "../images/real-estate.png";
 import Aiassistant from "../images/ai-assistant.png";
+import netflix from "../images/netflix.png";
 import vidtube from "../images/youtube.png";
 
 export const Bio = {
@@ -73,13 +74,14 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    school: "IGNOU",
+    school: "Indra Gandhi Natiional Open University ",
     degree: "BSC MATHS",
     date: "Apr 2018 - Apr 2021",
   },
   {
     id: 1,
     school: "Emmanuel Mission School, Talwandi Kota",
+    degree: "PCM",
     date: "Apr 2015 - Apr 2017",
   },
   {
@@ -96,8 +98,8 @@ export const projects = [
     description:
       "In my AI Assistant project, I integrated the Gemini API for data retrieval and utilized the Context API for efficient state management thereby expanded my proficiency in API integration.",
     image: Aiassistant,
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
+    github: "https://github.com/twinklegoyal233/ai-assistant",
+    webapp: "https://twinklegoyal-ai-assistant.vercel.app/",
   },
   {
     id: 1,
@@ -106,25 +108,25 @@ export const projects = [
       "In my Youtube project, I explored the YouTube API and Redux. I implemented essential features such as video playback, user interaction functionalities like comments, and seamless switching between various content types such as news, blogs, and shorts. ",
     image: vidtube,
   
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/twinklegoyal233/Youtube",
+    webapp: "https://twinklegoyal-youtube.vercel.app/",
   },
   {
     id: 2,
     title: "Real Estate",
     description:
-      "For this project, I built a real estate website using HTML, CSS and JavaScript. Through this project, I learnt Responsive Web Design, Building reusable Components. Adding SwiperJS and making the Form work. ",
+      "For this project, I built a real estate website using HTML, CSS and JavaScript. Through this project, I learnt Responsive Web Design, Building reusable Components. ",
     image: realestate,
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://main--extraordinary-crostata-d5388b.netlify.app/",
+    github: "https://github.com/twinklegoyal233/real-estate",
+    webapp: "https://twinklegoyal-realestate.vercel.app/",
   },
   {
     id: 3,
     title: "Netflix",
     description:
       "For this project, I worked with Firebase, Redux, and TMDB API. It features user login, Redux state management, and fetches movie data from TMDB. ",
-    image: realestate,
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://main--extraordinary-crostata-d5388b.netlify.app/",
+    image: netflix,
+    github: "https://github.com/twinklegoyal233/Netflix-project",
+    webapp: "https://twinklegoyal-netflix.vercel.app/",
   },
 ];

@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Bio } from '../../data/constants';
-import Typewriter from "typewriter-effect"
+import Typewriter from "typewriter-effect";
+import resumeFile from "../../data/Resume.pdf";
 const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;
@@ -217,7 +218,7 @@ const Hero = () => {
           </span>
         </TextLoop>
         <SubTitle>{Bio.description}</SubTitle>
-        <ResumeButton href = ""   >Check Resume</ResumeButton>
+        <ResumeButton   onClick={() => window.open(resumeFile, '_blank')}   >Check Resume</ResumeButton>
           </HeroLeftContainer>        
        
       </HeroInnerContainer>
