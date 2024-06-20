@@ -47,7 +47,6 @@ export const skills = [
         image:
           "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
       },
-
       {
         name: "Git",
         image:
@@ -66,6 +65,11 @@ export const skills = [
         name: "Firebase",
         image:
           "https://w7.pngwing.com/pngs/573/662/png-transparent-firebase-database-mobile-backend-as-a-service-push-technology-firebase-angle-text-orange.png",
+      },
+      {
+        name: "Github",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/25/25231.png",
       },
     ],
   },
