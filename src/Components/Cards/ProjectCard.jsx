@@ -64,7 +64,7 @@ font-size : small;
 `;
 const ButtonGroup = styled.div`
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-center;
     gap: 12px;
     align-items: center;
 `;
@@ -105,9 +105,6 @@ const ProjectCard = ({ project }) => {
         <Description>{project.description}</Description>
       </Details>
       <ButtonGroup>
-        <Button dull href={project?.github} target="new">
-          View Code
-        </Button>
         <Button href={project?.webapp} target="new">
           Live
         </Button>
