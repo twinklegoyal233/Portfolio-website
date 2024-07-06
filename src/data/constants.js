@@ -71,6 +71,11 @@ export const skills = [
         image:
           "https://cdn-icons-png.flaticon.com/512/25/25231.png",
       },
+      {
+        name: "Material UI",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2BK_NKs84ryk_LTpn7ppSY4hnibygrGsA_w&s",
+      },
     ],
   },
 ];
