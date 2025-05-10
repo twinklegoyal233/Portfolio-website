@@ -37,6 +37,11 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
+        name: "NextJs",
+        image:
+          "data:image/png;base64,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",
+      },
+      {
         name: "Redux",
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
@@ -147,19 +152,41 @@ export const projects = [
 export const experiences = [
   {
     id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcNUsR7wpp6_S_wxqpRuY6bhhwwtlnnozsgTkBfMHJGrKTomyxpEPUpAgg1Q&s",
-    role: "Frontend Engineer Intern",
-    company: "Bachina Labs",
-    date: "Feb 2024 - April 2024",
-    desc: "Developed responsive web pages for the company's website using React, TypeScript, and Material UI. Implemented state management with Redux and integrated Styled Components for modular and maintainable styling. Collaborated with the team to integrate data with backend APIs seamlessly.",
+    img: "https://media.licdn.com/dms/image/v2/D560BAQF06Fbz2-7C-Q/company-logo_200_200/company-logo_200_200/0/1731564764144/fastvert_logo?e=1752105600&v=beta&t=hopie4m5V4ZYt-iwskgnQYM8M_gkQdAyyCw93FalqAE"
+,
+    role: "Frontend Engineer",
+    company: "Fastvert",
+    date: "September 2024 - Feb 2025",
+    desc: (
+      <>
+      Contributed to the development of Mariox Software Client Website and Fastvert website,
+enhancing user experience and responsiveness.Utilized GSAP, Next.js, React JS and Tailwind CSS
+to create a seamless experience. You can check the website at{" "}
+        <a
+          href="https://fastvert.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "rgba(242, 243, 244, 0.6)", textDecoration: "underline" }}
+        >
+          fastvert.com 
+        </a> and {""}
+        <a
+          href="https://Marioxsoftware.com "
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "rgba(242, 243, 244, 0.6)", textDecoration: "underline" }}
+        >
+          Marioxsoftware.com 
+        </a>
+      </>
+    ),
     skills: [
-      "HTML",
-      "CSS",
-      "TypeScript",
-      "Material UI",
-      "Styled Components",
       "ReactJS",
-      "Redux",
+      "Next.js",
+      "GSAP",
+      "Tailwind CSS",
+      "HTML",
+      "JavaScript",
     ],
   },
   {
@@ -167,7 +194,7 @@ export const experiences = [
     img: "data:image/jpeg;base64,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",
     role: "Frontend Engineer Intern",
     company: "Acencore",
-    date: "May 2024 - Present",
+    date: "July 2024 - October 2024",
     desc: (
       <>
         Led the development of the landing page and several other key pages and made them responsive and integrated data with backend APIs. Utilized React, Redux, and Tailwind CSS to create a modern and user-friendly interface. You can check the website at{" "}
@@ -178,7 +205,8 @@ export const experiences = [
           style={{ color: "rgba(242, 243, 244, 0.6)", textDecoration: "underline" }}
         >
           acencore.com
-        </a>.
+        </a>
+       
       </>
     ),
     skills: [
@@ -189,6 +217,24 @@ export const experiences = [
       "HTML",
       "CSS",
       "JavaScript",
+    ],
+  },
+ 
+  {
+    id: 2,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcNUsR7wpp6_S_wxqpRuY6bhhwwtlnnozsgTkBfMHJGrKTomyxpEPUpAgg1Q&s",
+    role: "Frontend Engineer Intern",
+    company: "Bachina Labs",
+    date: "June 2024 - August 2024",
+    desc: "Developed responsive web pages for the company's website using React, TypeScript, and Material UI. Implemented state management with Redux and integrated Styled Components for modular and maintainable styling. Collaborated with the team to integrate data with backend APIs seamlessly.",
+    skills: [
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "Material UI",
+      "Styled Components",
+      "ReactJS",
+      "Redux",
     ],
   },
 ];
