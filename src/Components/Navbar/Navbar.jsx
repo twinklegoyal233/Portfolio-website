@@ -10,7 +10,6 @@ import {
   NavLink,
   GitHubButton,
   Nav,
-  Span,
   NavbarContainer,
   NavLogo,
   MobileIcon,
